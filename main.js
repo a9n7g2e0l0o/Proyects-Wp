@@ -18,7 +18,7 @@ function init() {
     createNavegateonDots();
 }
 window.addEventListener('resize', () => {
-    sliceWidth = sliceWidth[0].clientWidth
+    sliceWidth = slideImage[0].clientWidth;
 })
 function createNavegateonDots() {
     for (let i = 0; i < numberImages; i++) {
